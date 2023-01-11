@@ -1,0 +1,34 @@
+PROJE-1
+SORU -1
+[22,27,16,2,18,6] -> Selection Sort
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+CEVAP-1
+Öncelikle en küçük eleman bulunur ve ilk sıradaki eleamn ile yer değiştirilir.
+[2,27,16,22,18,6]
+ikinci elemandan başlayarak adım adım küçük elemanda büyük elemana sıralama aşağıdaki adımlar şeklinde yapılır.
+[2,6,16,22,18,27]
+[2,6,16,18,22,27]
+Bütün dizi küçükten büyüğe sıralandıktan sonra işleme son verilir.
+
+
+SORU-2
+Big-O gösterimini yazınız.
+
+CEVAP-2
+En küçük eleman bulunurken n adet işlem yapılır.
+Bir sonraki adımda n-1 adet işlem yapılarak en son adımda 1 işlem ile sonlandırılır.
+Bu durumda n + (n-1) + ..+2+1 işlem bulunmaktadır. 
+Yani (n(n+1))/2 olup n^2 en büyük kuvvete sahip olması sebebiyle Big-O n^2 dir.
+
+SORU-3
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+.
+
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
